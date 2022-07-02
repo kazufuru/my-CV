@@ -1,4 +1,5 @@
 document.getElementById("contact-button").addEventListener("click", tampilkanContact);
+document.getElementById("backtotop-button").addEventListener("click", scrollKeItem("contact"));
 document.getElementById("submit-button").addEventListener("click", cekInputForm);
 
 function scrollKeItem(id_name){
