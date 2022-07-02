@@ -1,4 +1,5 @@
 document.getElementById("contact-button").addEventListener("click", tampilkanContact);
+document.getElementById("submit-button").addEventListener("click", cekInputForm);
 
 function scrollKeItem(id_name){
     document.getElementById(id_name).scrollIntoView({behavior: "smooth", block: "start"});
