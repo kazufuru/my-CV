@@ -1,9 +1,9 @@
 document.getElementById("contact-button").addEventListener("click", tampilkanContact);
-document.getElementById("backtotop-button").addEventListener("click", scrollKeItem("contact"));
+document.getElementById("backtotop-button").addEventListener("click", scrollKeAtas);
 document.getElementById("submit-button").addEventListener("click", cekInputForm);
 
-function scrollKeItem(id_name){
-    document.getElementById(id_name).scrollIntoView({behavior: "smooth", block: "start"});
+function scrollKeAtas(){
+    document.getElementById("top").scrollIntoView({behavior: "smooth", block: "start"});
 };
 
 function cekNama() {
