@@ -1,0 +1,268 @@
+* {
+    font-family: sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+body {
+    background-color: #E1E1E1;
+}
+
+.navbar {
+    height: fit-content;
+    background-color: #041c32;
+    opacity: 0.8;
+    display: block;
+    width: 100%;
+    margin: 5px auto;
+    position: relative;
+    top: 0;
+}
+
+.navbar h2 {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+    padding-left: 20px;
+    padding: 1rem;
+}
+
+.burger-icon {
+    display: none;
+    height: 50px;
+    padding-right: 10px;
+}
+
+.navbar-list{
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+
+.cv-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.cv-items li {
+    color: white;
+    font-size: 15px;
+    list-style: none;
+    text-align: right;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.navbar-list p {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+    padding: 15px 20px;
+    transition: all 1s;
+    background-color: #041c32;
+    border-radius: 10px;  
+}
+
+.navbar-list p:hover {
+    background-color: #4F606F;
+    transition: all 1s;   
+}
+
+.backtotop-button {
+    padding: .5rem;
+    background-color: #041c32;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    width: 55px;
+    position: fixed;
+    top: 43%;
+    transition: all 1s;
+}
+
+.backtotop-button p{
+    font-size: 7px;
+    text-align: center;
+}
+
+.backtotop-button img {
+    width: inherit;
+}
+
+.backtotop-button:hover {
+    background-color: #4F606F;
+    transition: all 1s; 
+}
+
+.contact-button {
+    top: 30%;
+}
+
+.contact-button:hover {
+    background-color: #4F606F;
+    transition: all 1s; 
+}
+
+
+.button-shadow {
+    box-shadow: 0 5px 5px #808080;
+}
+
+.container {
+    padding: 30px;
+    text-align: center;
+    /* border-bottom: 3px solid #041c32; */
+    width: 60%;
+    margin: 20px auto 20px auto;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px #808080;
+}
+
+.container h1 {
+    padding: 10px 0;
+}
+
+.foto-container {
+    margin: auto auto;
+    border: 10px solid rgba(4,28,50, 0.8);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+}
+
+.margin-5px {
+    margin: 5px 0;
+}
+
+.about-me {
+    width: 80%;
+    margin: auto;
+}
+
+.icon {
+    padding-right: 15px;
+    vertical-align: middle;
+}
+
+.sub-container {
+    width: 70%;
+    padding: 20px 0;
+    text-align: left;
+    margin: auto;
+}
+
+.sub-container li {
+    padding-bottom: 7px;
+}
+
+.sub-container img {
+    height: 50px;
+}
+
+.bordertop {
+    padding-top: 20px;
+    border-top: dotted 2px #041c32;
+}
+
+.contact-wrapper {
+    width: 500px;
+    margin: auto;
+    border-radius: 5px;
+    background-color: white;
+    display: none;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+input, textarea {
+    width: 400px;
+    color: #041c32;
+    margin-top: 10px;
+}
+
+.contact-form {
+    margin-block-end: 5px;
+}
+
+.submit-button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: #63BD6E;
+    box-shadow: 0 5px #218613;
+    cursor: pointer;
+    height: 30px;
+}
+
+.submit-button:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.no-border {
+    border-bottom: none;
+}
+
+footer {
+    background-color: #041c32;
+    opacity: 0.8;
+}
+
+.footer-wrapper {
+    margin: 5px;
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    padding-top: 10px;
+    align-items: right;
+    justify-content: flex-end;
+    margin-bottom: 0rem;
+    margin-right: 10rem;
+}
+
+.footer-list li {
+    padding: 10px;
+}
+
+.footer-text {
+    color: white;
+    font-size: 10px;
+    height: 30px;
+    line-height: 30px;
+    text-align: left;
+    padding-left: 30px;
+    margin: auto;
+}
+
+.superscript {
+    font-size: 15px;
+}
+
+.red-text {
+    color: red;
+}

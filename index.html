@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/stylesheet.css">
+    <title>CURRICULUM VITAE</title>
+</head>
+
+<body>
+    <!-- HEADER SECTION -->
+    <header id="top">
+        <div class="navbar">
+                <h2>CURRICULUM VITAE</h2>
+        </div>
+
+        <div class="contact-button backtotop-button button-shadow" id="contact-button">
+            <p>CONTACT</p>
+            <img src="/img/mail.png" alt="">
+        </div>
+        <div onclick="scrollKeItem('top')" class="backtotop-button button-shadow">
+            <p>BACK TO TOP</p>
+            <img src="/img/arrow.png" alt="">
+        </div>
+    </header>
+    
+    <!-- ABOUT ME -->
+    <section id="aboutme" class="container">
+        <div class="foto-container">
+            <img class="foto" src="/img/Pasfoto.png" alt="foto_saya">
+        </div>
+        <h1 class="margin-5px">HELLO</h1>
+        <P class="margin-5px">My name is</P>
+        <h2 class="margin-5px">KASYFURRAHMAN</h2>
+        <p class="margin-5px about-me">A front-end web developer in training with experiences in auditing, excel data analysis, illustrator, and design.</p>
+    </section>
+
+    <!-- CV ITEMS -->
+    <div class="cv-items navbar">
+        <ul class="navbar-list">
+            <li id="experience-button">
+                <p class="button-shadow">Experience</p>
+            </li>
+            <li id="education-button">
+                <p class="button-shadow">Education</p>
+            </li>
+        </ul>
+    </div>
+
+    <!-- EXPERIENCES -->
+    <section id="experience" class="hidden">
+    
+        <h2 class="heading2 container"><img class="icon" src="/img/businessman.png" alt="">MY EXPERIENCES</h2>
+        
+        <div class="container">
+            <div class="sub-container">
+                <h3><img class="icon" src="/img/Logo_PLN.png" alt="">PT PLN (Persero)</h3>
+                <h4 class="bordertop">Internal Audit</h4>
+                <h4>2017-2021</h4>
+                <ul>
+                    <li>I use risk-based audit to audit the company's business processes.</li>
+                    <li>I use excel to analyze various data from electricity generation to asset maintenance data.</li>
+                </ul>
+                <h4 class="bordertop">Energy Transaction</h4>
+                <h4>2021</h4>
+                <ul>
+                    <li>I use excel to analyze the customer's data including address, coordinate, tariff, and usage.</li>
+                    <li>I use excel to predict and analyze electricity losses.</li>
+                </ul>
+                <h4 class="bordertop">HSSE Supervisor</h4>
+                <h4>2022-current</h4>
+                <ul>
+                    <li>I supervise safety procedures done by employees and vendors.</li>
+                </ul>
+            </div>
+            
+        </div>
+        <div class="container">
+            <div class="sub-container">
+                <h3><img class="icon" src="/img/logo-ytl.jpg" alt="">PT YTL Jawa Timur</h3>
+                <h4 class="bordertop">Intern</h4>
+                <h4>2015</h4>
+                <ul>
+                    <li>I did internship in instrument and control engineering.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="container">
+            <div class="sub-container">
+                <h3><img class="icon" src="/img/logo-polban.png" alt="">Campus Organizations</h3>
+                <h4 class="bordertop">Illustrator</h4>
+                <h4>2013-2015</h4>
+                <ul>
+                    <li>I illustrate the internal magazine for various articles and sometimes make comic strip.</li>
+                </ul>
+                <h4 class="bordertop">Graphic Designer</h4>
+                <h4>2013-2015</h4>
+                <ul>
+                    <li>I did some graphic designs for billboards, backdrops, and flyers</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="hidden">
+        <h2 class="container"><img class="icon" src="/img/education.png" alt="">EDUCATION</h2>
+        <div class="container">
+            <div class="sub-container">
+                <h3><img class="icon" src="/img/logo-polban.png" alt="">Politeknik Negeri Bandung</h3>
+                <h4>Bachelor of Applied Science (S.ST)</h4>
+                <h4>Electronics Engineering</h4>
+                <h4>2016</h4>
+                <p>GPA of 3.73</p>
+                <p>What I did:</p>
+                <iframe width="400" height="200" src="https://www.youtube.com/embed/m0wzbRXEfXM" title="What I did" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-wrapper">
+            <ul class="footer-list">
+                <li>Blog</li>
+                <li>My Portofolio</li>
+                <li>External links</li>
+            </ul>
+        </div>
+        <p class="footer-text">2022@Kasyfurrahman</p>
+        <a class="footer-text" href='https://www.freepik.com/vectors/strategy-icon'>Strategy icon vector created by rawpixel.com - www.freepik.com</a>
+    </footer>
+
+    <section">
+        <div id="contact" class="container no-border contact-wrapper">
+            <h2 class="margin-5px">CONTACT ME</h2>
+            <P class="contact-form">Your Name<span class="superscript red-text">*</span></P>
+            <input id="form-nama" type="text">
+            <P class="contact-form">Your E-mail<span class="superscript red-text">*</span></P>
+            <input id="form-email" type="text">
+            <p class="contact-form">Your Message<span class="superscript red-text">*</span></p>
+            <textarea name="" id="form-message" cols="30" rows="10"></textarea>
+            <p class="superscript red-text">*Required</span></p>
+            <input id="submit-button" class="submit-button" type="submit" onclick="cekInputForm()">
+        </div>
+    </section>
+
+    <script src="/js/jquery-3.6.0.js"></script>
+    <script src="/js/jquery-function.js"></script>
+    <script src="/js/script.js"></script>
+</body>

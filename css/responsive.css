@@ -1,0 +1,32 @@
+@media (max-width: 1000px) {
+    .navbar {
+        width: 90%;
+    }
+}
+
+@media (max-width: 670px) {
+    .navbar {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .left-navbar, .right-navbar {
+        margin: auto;
+    }
+
+    .left-navbar h2 {
+        text-align: center;
+    }
+
+    .burger-icon {
+        display: block;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .about-me, .experience {
+        width: 100%;
+    }
+}
