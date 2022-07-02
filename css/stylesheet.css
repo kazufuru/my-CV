@@ -83,7 +83,7 @@ body {
     display: flex;
     flex-direction: column;
     position: fixed;
-    top: 30%;
+    top: 11rem;
     justify-content: center;
 }
 
