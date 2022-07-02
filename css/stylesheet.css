@@ -78,17 +78,25 @@ body {
     transition: all 1s;   
 }
 
+.button-container {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 30%;
+    justify-content: center;
+}
+
 .backtotop-button {
+    margin: 10px auto;
     padding: .5rem;
     background-color: #041c32;
     opacity: 0.8;
     cursor: pointer;
     border-radius: 10px;
     color: white;
-    width: 55px;
-    position: fixed;
-    top: 43%;
     transition: all 1s;
+    width: 70px;
 }
 
 .backtotop-button p{
@@ -97,7 +105,16 @@ body {
 }
 
 .backtotop-button img {
-    width: inherit;
+    display: block;
+    margin: auto;
+}
+
+.mail-icon {
+    width: 70px;
+}
+
+.arrow-icon {
+    height: 50px;
 }
 
 .backtotop-button:hover {
@@ -224,13 +241,14 @@ input, textarea {
     border-bottom: none;
 }
 
-footer {
+.footer-wrapper {
     background-color: #041c32;
     opacity: 0.8;
-}
-
-.footer-wrapper {
-    margin: 5px;
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
 }
 
 .footer-list {
